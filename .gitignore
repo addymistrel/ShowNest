@@ -1,1 +1,95 @@
-.idea
+# ── IDE ──────────────────────────────────────────────────────────
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+nbproject/
+.settings/
+.classpath
+.project
+.factorypath
+
+# ── Maven ─────────────────────────────────────────────────────────
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# ── Java ──────────────────────────────────────────────────────────
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
+
+# ── Spring Boot ───────────────────────────────────────────────────
+/HELP.md
+spring-shell.log
+
+# ── Logs ─────────────────────────────────────────────────────────
+*.log
+*.log.*
+logs/
+log/
+
+# ── OS ───────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ── Docker ───────────────────────────────────────────────────────
+.docker/
+
+# ── Environment / Secrets ────────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.jks
+secrets/
+
+# ── Kubernetes ───────────────────────────────────────────────────
+infrastructure/kubernetes/secrets/
+
+# ── Terraform ────────────────────────────────────────────────────
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+.terraform.lock.hcl
+
+# ── Node / Frontend (for when we add frontend) ───────────────────
+node_modules/
+dist/
+.next/
+.nuxt/
+.cache/
+.parcel-cache/
+*.tsbuildinfo
+
+# ── Test / Coverage reports ───────────────────────────────────────
+**/surefire-reports/
+**/failsafe-reports/
+coverage/
+*.exec
