@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
@@ -7,24 +6,12 @@
 
     <modelVersion>4.0.0</modelVersion>
 
+    <!-- ===== Root Artifact ===== -->
     <groupId>com.shownest</groupId>
     <artifactId>shownest-backend</artifactId>
+
     <version>1.0.0</version>
 
     <packaging>pom</packaging>
-
-    <name>ShowNest Backend</name>
-
-    <modules>
-
-    </modules>
-
-    <properties>
-
-        <java.version>25</java.version>
-
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-
-    </properties>
 
 </project>
